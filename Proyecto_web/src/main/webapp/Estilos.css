@@ -2,7 +2,8 @@
 
 label {
         color: rgb(38, 17, 128);
-        font-family: Arial
+        font-family: Arial;
+        font-size: 21px;
     }
 
         legend {
@@ -17,12 +18,23 @@ label {
     input {
     display: block;
     padding: 15px 10px;
-    margin-bottom: 10px;
-    width: 50%;
+    width: 85%;
+    height: 10px ;
     border: 1px solid #ddd;
     transition: border-width 0.2s ease;
     border-radius: 2px;
-    color: #ccc;
+    color: rgb(0, 0, 0);
+    }
+    
+    .inputCantidad {
+    display: block;
+    padding: 15px 10px;
+    width: 25%;
+    height: 10px ;
+    border: 1px solid #ddd;
+    transition: border-width 0.2s ease;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
     }
     
     a {
@@ -38,5 +50,22 @@ label {
     margin: 10px 0 30px 0;
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
+  }
+  
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  
+  .boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
   }
 
